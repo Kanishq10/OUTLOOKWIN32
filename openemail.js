@@ -1,6 +1,6 @@
 const {activeXObject}= require('winax')
 try {
-    const outLook= new activeXObject('Outlook.Apllication');
+    const outLook= new activeXObject('Outlook.Application');
     const mapi=outLook.getNamespace('MAPI');
     const inbox=mapi.GetDefaultFolder(6);
     const items=inbox.Items;
