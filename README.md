@@ -1,32 +1,55 @@
 # OUTLOOKWIN32
 
-Source code and project resources for OUTLOOKWIN32.
+**Portfolio project** · A JavaScript automation example for opening or composing Outlook content on Windows.
 
 ## Overview
 
-This repository contains the source code and resources for **OUTLOOKWIN32**.
+A JavaScript automation example for opening or composing Outlook content on Windows.
 
-## Technologies
+## Technology Stack
 
-- JavaScript
+- `Node.js`
+- `JavaScript`
 
-## Getting Started
+## How the Repository Works
 
-```bash
-git clone https://github.com/Kanishq10/OUTLOOKWIN32.git
-cd OUTLOOKWIN32
+```mermaid
+flowchart LR
+    N0["Input<br/> Accept a target or search value"]
+    N1["Automation / Request<br/> Fetch or control the external resource"]
+    N0 --> N1
+    N2["Parse<br/> Extract relevant data"]
+    N1 --> N2
+    N3["Output<br/> Render or export the result"]
+    N2 --> N3
 ```
 
-Review the project files and configuration to install dependencies and start the application.
+| Stage | Responsibility |
+|---|---|
+| **Input** | Accept a target or search value |
+| **Automation / Request** | Fetch or control the external resource |
+| **Parse** | Extract relevant data |
+| **Output** | Render or export the result |
 
-## Repository Contents
+## Concepts Covered
+
+- JavaScript runtime
+- Asynchronous I/O
+- Modules and packages
+- HTTP or CLI workflows
+- External integrations
+
+## Repository Map
 
 - `.gitignore`
-- `README.md`
 - `openemail.js`
 - `package-lock.json`
 - `package.json`
 
-## Contributing
+## Recruiter Summary
 
-Contributions are welcome. Fork the repository, create a feature branch, and open a pull request.
+This repository demonstrates practical implementation skills, repository organization, and an end-to-end understanding of the project workflow. It is suitable as a focused example of applied software or data work.
+
+---
+
+<sub>Documentation is concise and project-focused; source code was not modified.</sub>
